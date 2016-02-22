@@ -1,0 +1,29 @@
+{
+  "name": "vtile-playground",
+  "version": "0.0.1",
+  "description": "Playing with vector tiles...",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Cayetano Benavent",
+  "contributors" : [ "Cayetano Benavent" ],
+  "license": "GNU GPL",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.1.2",
+    "body-parser": "^1.1.2",
+    "errorhandler": "^1.0.1",
+    "method-override": "^1.0.0"
+  },
+  "bin": {
+    "simple-server": "./start.js"
+  }
+}
